@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="styleforolympics.css"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height = "2300px"  width = "1500px" >
+
+
+		<!-- Кольца: -->
+		
+		<circle cx="400px" cy="1815px" />
+		<circle cx="745px" cy="1815px" />
+		<circle cx="1090px" cy="1815px" />
+		
+		<circle cx="576px" cy="1972px" />
+		<circle cx="920px" cy="1972px" />
+		
+		
+		<!-- Линии (от точки М чертим вертикальную линию v, кусок окружности a, горизонтальную линию h): -->
+				
+		<path d="M 585,683
+		v 680
+		a 80,80 0,0,1 -80,80
+		h -280" />
+		
+		<path d="M 665,476
+		v 887
+		a 160,160 0,0,1 -160,160
+		h -280" />
+		
+		<path d="M 745,221
+		v 1142
+		a 240,240 0,0,1 -240,240
+		h -280" />
+		
+		<path d="M 745,221
+		v 1142
+		a 240,240 0,0,0 240,240
+		h 280" />
+		
+		<path d="M 825,476
+		v 887
+		a 160,160 0,0,0 160,160
+		h 280" />
+		
+		<path d="M 905,683
+		v 680
+		a 80,80 0,0,0 80,80
+		h 280" />
+		
+		
+		<!-- Звезда: -->
+		
+		<!--<circle cx="745px" cy="125px" r="82px" fill="transparent" stroke="blue" stroke-width="1" /> - впишем звезду в эту окружность-->
+		
+		<polygon points="745 45 763 99 825 99 775 135 795 193 745 157 695 193 715 135 665 99 727 99" />
+		
+
+</svg>
