@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/css" href="styleforolympics.css"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height = "2300px"  width = "1500px" >
+<!-- <?xml-stylesheet type="text/css" href="styleforolympics.css"?>-->
+
+<style>
+svg {
+  /*background-image: url(olympicsrcpicture.jpg);  - можно сравнить */
+  stroke: red;
+  fill: red;
+  }
+  
+circle {r: 150px; fill: transparent; stroke-width: 16}
+  
+path {fill: none; stroke-width: 40}
+</style>
 
 
 		<!-- Кольца: -->
